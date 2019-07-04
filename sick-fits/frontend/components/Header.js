@@ -4,7 +4,9 @@ import Nav from './Nav';
 const Header = () => (
   <div>
     <div className="bar">
-      <a href="">Sick Fits</a>
+      <h1>
+        <a href="">Sick Fits</a>
+      </h1>
     </div>
     <Nav />
     <div className="sub-bar">
