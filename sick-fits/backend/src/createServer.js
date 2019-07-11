@@ -14,6 +14,7 @@ function createServer() {
     resolverValidationOptions: {
       requireResolversForResolveType: false,
     },
+    //Add db to request in context
     context: req => ({ ...req, db })
   })
 }
